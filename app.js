@@ -9,7 +9,8 @@ feature_reader(read_stream, feature_callback)
 function feature_callback(feature){
     typeof feature === 'json' //true
     
-    console.log(feature) 
+    console.log("GeoJson");
+    console.log(feature); 
     // { "type": "Feature", "properties": { ... }, "geometry": { ... }
     // or
     // { "type": "feature", "properties": { ... }, "geometry": { ...} }
