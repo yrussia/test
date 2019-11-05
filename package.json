@@ -1,0 +1,7 @@
+{
+    "name": "nomap",
+    "version": "0.0.1",
+    "dependencies": {
+        "geojson-feature-reader": "*"
+    }
+}
